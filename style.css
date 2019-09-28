@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+body
+{
+	font-family: 'Roboto';
+	
+}
+.maindiv
+{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+#buttonround
+{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-image:linear-gradient(to right,#FF5F6D,#FFC371);
+	float: right;
+	transition: 0.3s;
+	box-shadow:0px 3px 10px grey;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color:white;
+}
+#buttonround i
+{
+	font-size: 1.8rem;
+}
+#buttonround:hover
+{
+	cursor: pointer;
+	box-shadow: 0px 1px 10px grey;
+}
+#menudiv
+{
+	width: 0px;
+	height: 0px;
+	transition: 0.3s;
+	overflow: hidden;
+	color: #eeeeee;
+	padding: 16px;
+	box-shadow: none;
+}
+#menudiv td
+{
+	font-size: 1.4rem;
+	vertical-align: middle;
+}
+#menudiv td i 
+{
+	font-size: 1.8rem;
+}
+#menudiv td:hover
+{
+	cursor:pointer;
+}
+#menudiv table
+{
+	height: 100%;
+}
+.menudiv
+{
+	width: 180px !important;
+	height: 200px !important;
+	transition: 0.3s;
+	border-radius: 30px;
+	background-color: #0A0908;
+	margin-bottom: 10px;
+	box-shadow:0px 3px 10px grey !important;
+	overflow: hidden;
+}
+
